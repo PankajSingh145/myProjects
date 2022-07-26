@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page2Paper</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+</head>
+<body>
+
+    
+    <header class="header">
+        <div class="left">
+        <img src="/Images/logo.jpg" alt="Logo" >
+        <h5 style="color:white;">Page2Paper</h5>
+        </div>
+        <div class="mid">
+            <div class="navBar">
+                <ul class="nav" >
+                    <i class="fa fa-2x fa-fw fa-home"></i>
+                    <li id="action"><a href="#">Home</a></li>
+                    <i class="fa fa-2x fa-fw fa-envelope"></i>
+                    <li id="action"><a href="#">Contact us</a></li>
+                    <li id="action"><a href="#">About us</a></li>
+                    <i class="fa-solid fa-2x  fa-bars"></i>
+                </ul>
+            </div>
+        </div>
+        <div class="right" >
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+            <span ><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></span>
+        </div>
+    </header>
+
+    
+    <div class="container" style="max-width: 35em;">
+        <form action="submit.php" class="form-group form-control">
+            <h1 style="text-align: center;">Page2Paper</h3>
+            <h5 style="text-align: center;">Create Account</h5>
+            <label for="name">User Name</label><br>
+            <input type="text" name="username" id="username" placeholder="Name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Email"><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" id="password"placeholder ="Password"><br><br>
+            <input type="checkbox" name="terms" id="terms"><span>  Accept terms & conditions</span><br>
+            <button class="btn btn-success">Sign Up</button>
+        </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/82bc04c217.js" crossorigin="anonymous"></script>
+    <script src="/JS/app.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

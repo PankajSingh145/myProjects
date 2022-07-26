@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+
+body{
+    background: url('/Images/bg.jpg');
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.left{
+    position: absolute;
+    left: 12px;
+    top: 12 px;
+    /* border: 2px solid red; */
+    display: inline-block;
+    justify-content: center;
+}
+.mid{
+    display: block;
+    width: 38%;
+    top: 12px;
+    margin: 1rem auto;
+    align-items: center;
+    
+    /* border: 2px solid yellow; */
+}
+.right{
+    position:absolute;
+    /* border:2px solid blue; */
+    /* width: auto; */
+    display: flex;      
+    right: 2em;
+    top: 1.4em;
+
+}
+.right span{
+    display: flex;
+    margin: 12px 4px auto;
+
+}
+.right span i{
+    margin-left: 2px;
+}
+.left img{
+    display: flex;
+    margin-top: 0.4em;
+    margin-left: 1rem;
+    align-items: center;
+    width: 2.5rem;
+    border-radius: 50%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    cursor: pointer;
+    
+}
+
+.left div{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+.left div:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: auto auto;
+    position: sticky;
+  }
+  
+.nav li{
+    display: inline-block;
+    font-size: 1.6em;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.nav li a{
+    color: white;
+    text-decoration: none;  
+    padding: 12px 11px;
+}
+.nav li a:hover{
+    color:blue;
+    text-decoration: underline;
+    /* border: 1px solid white;
+    border-radius: 2px; */
+}
+.nav i{
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 14em;
+    margin: 12em 12rem;
+    max-width: 4em;
+    max-height: 28rem;
+    padding: 12px 12px;
+    /* border: 2px solid palegoldenrod; */
+    border-radius: 3%;
+
+}
+.container form{
+    padding: 2.375rem 7.75rem;
+}
+.container form h1{
+    width: 220px;
+    height: 65px;
+    background-color: rgb(90, 179, 49);
+    border-radius: 23%;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 0;
+  }
+  
+  @keyframes example {
+    0%   {background-color: rgb(69, 168, 114);}
+  25%  {background-color: rgb(168, 43, 131);}
+  50%  {background-color: rgb(102, 156, 14);}
+  100% {background-color: rgba(0, 128, 0, 0.486);}
+  }
+  
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1em;
+    margin-left: 4rem;
+}
